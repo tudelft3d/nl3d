@@ -1,17 +1,22 @@
 {
   "type": "CityJSON_Extension",
   "name": "NL3D",
-  "uri": "https://3d.bk.tudelft.nl/nl3d.json",
+  "uri": "https://github.com/hugoledoux/nl3d/blob/master/schemas/extensions/nl_3d.json",
   "version": "0.1",
   "description": "NL3D data model as a CityJSON Extension.",
 
 
   "extraRootProperties": {
 
-    "+@context": {
-      "type": "array",
-      "description": "required for json-ld",
-      "items": {"type": "string"}
+    "+context": {
+      "type": "object",
+      "properties": {
+        "un": { "type": "integer"},
+        "deux": { "type": "integer"},
+        "trois": { "type": "integer"}
+      },
+      "required": ["un", "deux", "trois"],
+      "additionalProperties": false
     }
   
   },
@@ -45,11 +50,11 @@
                 "ThoroughfareNumber": {"type": "string"},
                 "ThoroughfareName": {"type": "string"},
                 "PostalCode": {"type": "string"},
-                "location": {"$ref": "geomprimitives.schema.json#/MultiPoint"}
+                "location": {"$ref": "../geomprimitives.schema.json#/MultiPoint"}
               }
             }
           },
-          "required": ["type", "toplevel"],
+          "required": ["type", "toplevel", "geometry", "children"],
           "additionalProperties": "false"
         }
       ]
@@ -66,7 +71,7 @@
               "type": "string",  
               "format": "uri-reference"
             },
-           "attributes": {
+            "attributes": {
               "properties": {
                 "yearOfConstruction": { "type": "integer" },
                 "gebouwnummer": { "type": "string" },
@@ -91,7 +96,12 @@
           "required": ["type", "toplevel", "geometry"]
         }
       ]
+    },
+
+    "+PandInstallatie": {
+      "type": "object"
     }
+  
 
   }
 
