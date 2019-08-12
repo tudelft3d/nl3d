@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "http://localhost:8080/contexts/context_cityjson.jsonld",
+    "http://localhost:8080/contexts/context_imgeo.jsonld",
+    {
+      "obj1": {
+        "@id": "_:obj1"
+      }
+    }
+  ],
+  "CityObjects": {
+    "obj1": {
+      "@context": "http://localhost:8080/contexts/context_bldg.jsonld",
+      "attributes": {
+        "bgt_status": "bestaand",
+        "bronhouder": "G0503",
+        "creationdate": "2014-07-09",
+        "measuredHeight": 13.25,
+        "identificatiebagpnd": "503100000000035",
+        "min-height-surface": -0.100000001490116,
+        "namespace": "NL.IMGeo",
+        "terminationdate": ""
+      },
+      "geometry": {
+        "boundaries": [
+          0,
+          1,
+          2
+        ],
+        "lod": 1,
+        "type": "Solid"
+      },
+      "type": "Building"
+    }
+  },
+  "metadata": {
+    "geographicalExtent": [
+      84616.468,
+      447422.999,
+      0.0,
+      85140.839,
+      447750.636,
+      0.0
+    ]
+  },
+  "type": "CityJSON",
+  "version": "1.0",
+  "vertices": [
+    85012.343,
+    447455.577,
+    0.0,
+    85010.804,
+    447448.808,
+    0.0,
+    85013.832,
+    447447.447,
+    0.0
+  ]
+}

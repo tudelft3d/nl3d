@@ -1,0 +1,100 @@
+{
+  "type": "CityJSON_Extension",
+  "name": "NL3D",
+  "uri": "https://3d.bk.tudelft.nl/nl3d.json",
+  "version": "0.1",
+  "description": "NL3D data model as a CityJSON Extension.",
+
+
+  "extraRootProperties": {
+
+    "+@context": {
+      "type": "array",
+      "description": "required for json-ld",
+      "items": {"type": "string"}
+    }
+  
+  },
+
+
+
+  "extraCityObjects": {
+
+    "+Gebouw": {
+      "allOf": [
+        { "$ref": "../cityobjects.schema.json#/_AbstractCityObject" },
+        {
+          "properties": {
+            "type": { "enum": ["+Gebouw"] },
+            "toplevel": {"type": "boolean"},
+            "attributes": {
+              "properties": {
+                "gebouwnummer": { "type": "string" }
+              }
+            },
+            "@context": { 
+              "type": "string",  
+              "format": "uri-reference",
+              "description": "required for json-ld"
+            },
+            "address": {
+              "type": "object",
+              "properties": {
+                "CountryName": {"type": "string"},
+                "LocalityName": {"type": "string"},
+                "ThoroughfareNumber": {"type": "string"},
+                "ThoroughfareName": {"type": "string"},
+                "PostalCode": {"type": "string"},
+                "location": {"$ref": "geomprimitives.schema.json#/MultiPoint"}
+              }
+            }
+          },
+          "required": ["type", "toplevel"],
+          "additionalProperties": "false"
+        }
+      ]
+    },
+
+    "+Pand": {
+      "allOf": [
+        { "$ref": "../cityobjects.schema.json#/_AbstractCityObject"},
+        {
+          "properties": {
+            "type": { "enum": ["+Pand"] },
+            "toplevel": {"type": "boolean"},
+            "@context": { 
+              "type": "string",  
+              "format": "uri-reference"
+            },
+           "attributes": {
+              "properties": {
+                "yearOfConstruction": { "type": "integer" },
+                "gebouwnummer": { "type": "string" },
+                "statusOmschr": { "type": "string" },
+                "hoogste_bouwlaag": { "type": "integer" },
+                "hoogste_bouwlaag": { "type": "integer" },
+                "laagste_bouwlaag": { "type": "integer" },
+                "aantalBouwlagen": { "type": "integer" }
+              }
+            },            
+            "geometry": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {"$ref": "../geomprimitives.schema.json#/Solid"},
+                  {"$ref": "../geomprimitives.schema.json#/CompositeSolid"},
+                  {"$ref": "../geomprimitives.schema.json#/MultiSurface"}
+                ]
+              }
+            }        
+          },
+          "required": ["type", "toplevel", "geometry"]
+        }
+      ]
+    }
+
+  }
+
+
+}
+ 
