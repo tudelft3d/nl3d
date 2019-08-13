@@ -12,6 +12,10 @@ j2 = copy.deepcopy(j)
 j2['extensions'] = {'NL3D': {'url': 'https://github.com/hugoledoux/nl3d/blob/master/schemas/extensions/nl_3d.json', 'version': '0.1'}}
 j2['metadata']['referenceSystem'] = 'urn:ogc:def:crs:EPSG::7415'
 
+j2['@context'] = []
+j2['@context'].append("http://localhost:8080/contexts/context_imgeo.jsonld")
+j2['@context'].append("http://localhost:8080/contexts/context_cityjson.jsonld")
+
 
 for cid in j['CityObjects']:
     co = j['CityObjects'][cid]

@@ -8,15 +8,14 @@
 
   "extraRootProperties": {
 
-    "+context": {
-      "type": "object",
-      "properties": {
-        "un": { "type": "integer"},
-        "deux": { "type": "integer"},
-        "trois": { "type": "integer"}
-      },
-      "required": ["un", "deux", "trois"],
-      "additionalProperties": false
+    "@context": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {"type": "string"},
+          {"type": "object"}
+        ]
+      }
     }
   
   },
