@@ -136,7 +136,45 @@
               }
             }        
           },
-          "required": ["type", "geometry"]
+          "required": ["type", "geometry", "toplevel"]
+        }
+      ]
+    },
+
+    "+Lichtmast": {
+      "allOf": [
+        { "$ref": "../cityobjects.schema.json#/_AbstractCityObject"},
+        {
+          "properties": {
+            "type": { "enum": ["+Lichtmast"] },
+            "toplevel": {"type": "boolean"},
+            "@context": { 
+              "type": "string",  
+              "format": "uri-reference",
+              "description": "required for json-ld"
+            },
+            "attributes": {
+              "properties": {
+                "blablabla": {"type": "string"}
+              }
+            },
+            "geometry": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {"$ref": "../geomprimitives.schema.json#/MultiPoint"},
+                  {"$ref": "../geomprimitives.schema.json#/MultiLineString"},
+                  {"$ref": "../geomprimitives.schema.json#/Solid"},
+                  {"$ref": "../geomprimitives.schema.json#/MultiSolid"},
+                  {"$ref": "../geomprimitives.schema.json#/CompositeSolid"},
+                  {"$ref": "../geomprimitives.schema.json#/MultiSurface"},
+                  {"$ref": "../geomprimitives.schema.json#/CompositeSurface"},
+                  {"$ref": "../geomtemplates.schema.json#/GeometryInstance"}
+                ]
+              }
+            }        
+          },
+          "required": ["type", "geometry", "toplevel"]
         }
       ]
     }
