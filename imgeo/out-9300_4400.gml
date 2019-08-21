@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gml:FeatureCollection xmlns:frn="http://www.opengis.net/citygml/cityfurniture/2.0"
-                       xmlns:gen="http://www.opengis.net/citygml/generics/2.0"
-                       xmlns:bldg="http://www.opengis.net/citygml/building/2.0"
-                       xmlns:veg="http://www.opengis.net/citygml/vegetation/2.0"
-                       xmlns:ctg="http://www.opengis.net/citygml/2.0"
+<gml:FeatureCollection xmlns:bro="http://www.geostandaarden.nl/bro"
                        xmlns:imgeo-s="http://www.geostandaarden.nl/imgeo/2.1/simple/gml31"
-                       xmlns:gml="http://www.opengis.net/gml">
+                       xmlns:gml="http://www.opengis.net/gml"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://www.geostandaarden.nl/imgeo/2.1/simple/gml31 imgeo-simple.xsd">
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010013444</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -49,9 +48,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000018768</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -62,9 +62,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000111739</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -75,23 +76,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010060862</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -102,9 +104,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000373309</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -115,9 +118,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000014653</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -128,9 +132,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000223738</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -141,9 +146,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_d3aa9299-874b-405c-98c1-60f852445365</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -153,37 +159,38 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000113613</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -194,9 +201,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010007320</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -207,22 +215,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150728_s</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000065118</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -233,9 +243,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010002082</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -246,9 +257,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000059771</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -259,9 +271,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000149893</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -272,37 +285,38 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000678117</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -313,51 +327,52 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010053785</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -368,9 +383,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010009629</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -381,9 +397,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010005917</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -394,9 +411,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000123383</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -407,9 +425,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_221b190a-abc0-45a8-b520-777a20633674</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -419,9 +438,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_301a937c-9da3-4e72-a36d-1e2ea18d26f0</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -431,9 +451,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000129950</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -444,23 +465,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8816</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2019-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000376512</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -471,9 +493,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010060731</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -484,9 +507,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000192858</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -497,9 +521,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000678129</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -510,36 +535,38 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150727_s</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000258694</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -550,22 +577,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150730_w</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000334435</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -576,9 +605,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_d0f836cd-aef2-4b37-8573-c57c953766ae</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -588,50 +618,52 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150727_k</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010070372</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -642,78 +674,80 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8818</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8818</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150754_w</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8816</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000202942</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -724,9 +758,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000158574</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -737,23 +772,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010036693</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -764,22 +800,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150730_k</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000224780</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -790,9 +828,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000152402</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -803,9 +842,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010012702</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -816,79 +856,80 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8816</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8816</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000285796</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -899,37 +940,38 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8818</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8816</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000199438</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -940,23 +982,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8818</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000109222</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -967,51 +1010,52 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000013501</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1022,9 +1066,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010033799</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1035,9 +1080,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010012813</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1048,9 +1094,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000072900</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1061,9 +1108,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000678103</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1074,9 +1122,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_72982d02-9e23-4c3b-87f0-64f53263edb8</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1086,9 +1135,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010057131</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1099,35 +1149,38 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150730_s</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150729_w</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010016274</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1138,22 +1191,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150727_w</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000240344</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1164,9 +1219,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_fccc7894-8e2e-4447-b033-70356c0e4ec8</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1176,9 +1232,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000138695</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1189,9 +1246,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000052206</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1202,9 +1260,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000214585</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1215,35 +1274,38 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150729_k</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150754_s</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000067696</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1254,23 +1316,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000133608</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1281,23 +1344,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010043999</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1308,23 +1372,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8816</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000279654</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1335,22 +1400,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150754_k</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000264780</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1361,9 +1428,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000216072</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1374,9 +1442,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010003441</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1387,9 +1456,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2019-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010036436</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1400,23 +1470,24 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>8817</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010059841</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1427,9 +1498,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_9172a080-d2c5-4c81-ade7-81a36ae65bea</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1439,9 +1511,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000288384</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1452,36 +1525,38 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7480</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150728_k</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000678099</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1492,9 +1567,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_f7a8c8d6-bb33-44b0-9930-12563260ebb5</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1504,49 +1580,52 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150729_s</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Paal>
+         <imgeo-s:objectBeginTijd>2019-06-12</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>7413</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-07-26</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-07-26T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:objectBeginTijd>12-06-2019</imgeo-s:objectBeginTijd>
-         <imgeo-s:plusType>Lichtmast</imgeo-s:plusType>
+         <imgeo-s:plus-type>Lichtmast</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:Paal>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:VegetatieObject>
+         <imgeo-s:objectBeginTijd>2019-06-14</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>bm_150728_w</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2019-06-14</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2019-06-14T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
          <imgeo-s:bgt-status>bestaand</imgeo-s:bgt-status>
-         <imgeo-s:plusType>boom (niet BGT)</imgeo-s:plusType>
+         <imgeo-s:plus-type>boom (niet BGT)</imgeo-s:plus-type>
          <imgeo-s:geometrie2d><!--EMPTY FOR NOW--></imgeo-s:geometrie2d>
       </imgeo-s:VegetatieObject>
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000026618</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1557,9 +1636,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010010850</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1570,9 +1650,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010004358</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1583,9 +1664,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000110772</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1596,9 +1678,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_f8d7a12c-aba3-499a-a077-b422106e9738</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1608,9 +1691,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_6771c959-d152-4547-99b9-76755239869d</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1620,9 +1704,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:GebouwInstallatie>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>UUID_a6ac8b61-7727-43be-83e7-e8bd80dad950</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1632,9 +1717,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100000139713</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
@@ -1645,9 +1731,10 @@
    </gml:featureMember>
    <gml:featureMember>
       <imgeo-s:Pand>
+         <imgeo-s:objectBeginTijd>2018-06-05</imgeo-s:objectBeginTijd>
          <imgeo-s:identificatie.namespace>urn:imgeo.Gxxxx</imgeo-s:identificatie.namespace>
          <imgeo-s:identificatie.lokaalID>ID_0599100010058319</imgeo-s:identificatie.lokaalID>
-         <imgeo-s:tijdstipRegistratie>2018-06-05</imgeo-s:tijdstipRegistratie>
+         <imgeo-s:tijdstipRegistratie>2018-06-05T00:00:00</imgeo-s:tijdstipRegistratie>
          <imgeo-s:bronhouder>Gxxxx</imgeo-s:bronhouder>
          <imgeo-s:inOnderzoek>false</imgeo-s:inOnderzoek>
          <imgeo-s:relatieveHoogteligging>0</imgeo-s:relatieveHoogteligging>
