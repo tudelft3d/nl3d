@@ -112,6 +112,7 @@
           ]
         }
       ],
+      "imgeo_type": "boom",
       "toplevel": true
     },
     "bm_150730_k": {
@@ -224,6 +225,7 @@
           ]
         }
       ],
+      "imgeo_type": "boom",
       "toplevel": true
     },
     "bm_150729_k": {
@@ -336,6 +338,7 @@
           ]
         }
       ],
+      "imgeo_type": "boom",
       "toplevel": true
     },
     "bm_150728_k": {
@@ -448,6 +451,7 @@
           ]
         }
       ],
+      "imgeo_type": "boom",
       "toplevel": true
     },
     "bm_150754_k": {
@@ -560,6 +564,7 @@
           ]
         }
       ],
+      "imgeo_type": "boom",
       "toplevel": true
     }
   },

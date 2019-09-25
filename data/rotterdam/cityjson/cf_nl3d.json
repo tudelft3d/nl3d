@@ -3,7 +3,7 @@
   "version": "1.0",
   "CityObjects": {
     "UUID_ba49c390-cf23-400d-95ed-fbbf20b7289d": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -90,10 +90,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_30a2806f-dfa9-4b74-9b56-d22b08871709": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -180,10 +181,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_add8251c-edb7-427d-b470-df79f71171e9": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -270,10 +272,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_098f86c3-e136-4e64-ba81-10c1d648e9aa": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -360,10 +363,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_275adb98-8f27-463d-9dd8-e7894b3124cf": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -450,10 +454,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_17f32d65-4d68-4ef9-8ba6-4c65ce151743": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -540,10 +545,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_caf86f5e-81a1-4113-98e1-822ebfa0b307": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -630,10 +636,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_9cb9d34c-6cc4-4c2a-8ab0-486b4ee5b96d": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -720,10 +727,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_efe9ee5f-88fd-4418-9020-d77f6ad45aa0": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -810,10 +818,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_b1eaa86f-c1d6-48f6-b2f7-86c49870bc8d": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -900,10 +909,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_bcd00123-9db9-413b-88e6-b72dfff37603": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -990,10 +1000,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_2c5f38d9-047d-4024-a334-3698aa7e0f83": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -1080,10 +1091,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_dd99e559-0d1e-4d0d-a91a-601b0ca5d2f3": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -1170,10 +1182,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_3ba7127d-c389-49f9-91a6-6144f8a68e94": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -1260,10 +1273,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_684117b0-692a-435f-b6e6-6f48dc339a65": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -1350,10 +1364,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_140056b5-3246-4249-a7ed-d43c3ea802eb": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -1440,10 +1455,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_a6466b75-af59-4415-a88a-533ef4208e72": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -1530,10 +1546,11 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     },
     "UUID_926e1daf-170e-425c-85f3-afc19c97c721": {
-      "type": "+Lichtmast",
+      "type": "+Paal",
       "attributes": {
         "creationDate": "2019-07-26",
         "Lichtpunttype": "Straatverlichting",
@@ -1620,6 +1637,7 @@
           ]
         }
       ],
+      "imgeo_type": "lichtmast",
       "toplevel": true
     }
   },

@@ -7,7 +7,7 @@
 
     "Plus": {
       "patternProperties": {
-        "(\\+)\\w+": {}
+        "(\\+|\\@)\\w+": {}
       },
       "additionalProperties": false
     }
