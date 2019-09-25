@@ -26,11 +26,13 @@ for uid in uids:
     j2['CityObjects'][uid + '_k']['geometry'].append(j2['CityObjects'][uid + '_s']['geometry'][0])
     j2['CityObjects'][uid + '_k']['geometry'].append(j2['CityObjects'][uid + '_w']['geometry'][0])
     j2['CityObjects'][uid + '_k']['type'] = '+VegetatieObject'
+    j2['CityObjects'][uid + '_k']['imgeo_type'] = 'boom'
     j2['CityObjects'][uid + '_k']['toplevel'] = True
     del j2['CityObjects'][uid + '_s']
     del j2['CityObjects'][uid + '_w']
 
 json_str = json.dumps(j2, indent=2)
-fout = open('tmp.json', 'w')
+fout = open('../data/rotterdam/cityjson/t_nl3d.json', 'w')
 fout.write(json_str)
+print('Done.')
 
