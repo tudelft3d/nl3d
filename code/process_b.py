@@ -21,11 +21,13 @@ for cid in j['CityObjects']:
     co = j['CityObjects'][cid]
     if (co['type'] == 'Building'):
         j2['CityObjects'][cid]['type'] = '+Pand'
+        j2['CityObjects'][cid]['toplevel'] = True
         j2['CityObjects'][cid]['@context'] = 'https://bag.basisregistraties.overheid.nl/bag/id/pand/' + cid[3:]
         if 'children' in j['CityObjects'][cid]:
             for childid in j['CityObjects'][cid]['children']:
                 for each in j['CityObjects'][childid]['geometry']:
                     j2['CityObjects'][cid]['geometry'].append(each)
+            del j2['CityObjects'][cid]['children']                     
 
 #-- delete BuildingPart and BuildingInstallation
 lsids = []
@@ -40,7 +42,7 @@ for each in lsids:
 
 
 json_str = json.dumps(j2, indent=2)
-fout = open('tmp.json', 'w')
+fout = open('../data/rotterdam/cityjson/b_nl3d.json', 'w')
 fout.write(json_str)
-print('Done: tmp.json saved.')
+print('Done.')
 
