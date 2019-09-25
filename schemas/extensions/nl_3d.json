@@ -24,41 +24,6 @@
 
   "extraCityObjects": {
 
-    "+Gebouw": {
-      "allOf": [
-        { "$ref": "../cityobjects.schema.json#/_AbstractCityObject" },
-        {
-          "properties": {
-            "type": { "enum": ["+Gebouw"] },
-            "toplevel": {"type": "boolean"},
-            "attributes": {
-              "properties": {
-                "gebouwnummer": { "type": "string" }
-              }
-            },
-            "@context": { 
-              "type": "string",  
-              "format": "uri-reference",
-              "description": "required for json-ld"
-            },
-            "address": {
-              "type": "object",
-              "properties": {
-                "CountryName": {"type": "string"},
-                "LocalityName": {"type": "string"},
-                "ThoroughfareNumber": {"type": "string"},
-                "ThoroughfareName": {"type": "string"},
-                "PostalCode": {"type": "string"},
-                "location": {"$ref": "../geomprimitives.schema.json#/MultiPoint"}
-              }
-            }
-          },
-          "required": ["type", "toplevel", "geometry", "children"],
-          "additionalProperties": "false"
-        }
-      ]
-    },
-
     "+Pand": {
       "allOf": [
         { "$ref": "../cityobjects.schema.json#/_AbstractCityObject"},
@@ -97,16 +62,13 @@
       ]
     },
 
-    "+PandInstallatie": {
-      "type": "object"
-    },
-
     "+VegetatieObject": {
       "allOf": [
         { "$ref": "../cityobjects.schema.json#/_AbstractCityObject"},
         {
           "properties": {
             "type": { "enum": ["+VegetatieObject"] },
+            "imgeo_type": {"type": "string"},
             "toplevel": {"type": "boolean"},
             "@context": { 
               "type": "string",  
@@ -136,17 +98,18 @@
               }
             }        
           },
-          "required": ["type", "geometry", "toplevel"]
+          "required": ["type", "imgeo_type", "geometry", "toplevel"]
         }
       ]
     },
 
-    "+Lichtmast": {
+    "+Paal": {
       "allOf": [
         { "$ref": "../cityobjects.schema.json#/_AbstractCityObject"},
         {
           "properties": {
-            "type": { "enum": ["+Lichtmast"] },
+            "type": { "enum": ["+Paal"] },
+            "imgeo_type": {"type": "string"},
             "toplevel": {"type": "boolean"},
             "@context": { 
               "type": "string",  
@@ -174,7 +137,7 @@
               }
             }        
           },
-          "required": ["type", "geometry", "toplevel"]
+          "required": ["type", "imgeo_type", "geometry", "toplevel"]
         }
       ]
     }
