@@ -7,4 +7,4 @@ The schema is `/schemas/extensions/nl_3d.json`
 
 It's pretty simple at this moment, looks like this:
 
-![](./misc/uml_1.jpg)
+![](./misc/uml_2.jpg)
