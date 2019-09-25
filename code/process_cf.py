@@ -24,7 +24,8 @@ for cid in j['CityObjects']:
             if 'Odg_lamp_id' in j['CityObjects'][cid2]['attributes']:
                 if j['CityObjects'][cid2]['attributes']['Odg_lamp_id'] == lampid:
                     j2['CityObjects'][cid]['geometry'].append(j['CityObjects'][cid2]['geometry'][0])
-                    j2['CityObjects'][cid]['type'] = '+Lichtmast'
+                    j2['CityObjects'][cid]['type'] = '+Paal'
+                    j2['CityObjects'][cid]['imgeo_type'] = 'lichtmast'
                     j2['CityObjects'][cid]['toplevel'] = True
                     del j2['CityObjects'][cid2]
 
@@ -39,7 +40,7 @@ for cid in j['CityObjects']:
 #     del j2['CityObjects'][uid + '_w']
 
 json_str = json.dumps(j2, indent=2)
-# print(json_str)
-fout = open('tmp.json', 'w')
+fout = open('../data/rotterdam/cityjson/cf_nl3d.json', 'w')
 fout.write(json_str)
+print('Done.')
 
