@@ -18,8 +18,10 @@
   </annotation>
   <import namespace="http://www.opengis.net/gml"
     schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
-  <import namespace="http://www.opengis.net/citygml/2.0" schemaLocation="http://schemas.opengis.net/citygml/2.0/cityGMLBase.xsd"/>
-  <import namespace="http://www.opengis.net/citygml/building/2.0" schemaLocation="http://schemas.opengis.net/citygml/building/2.0/building.xsd"/>
+  <import namespace="http://www.opengis.net/citygml/2.0"
+    schemaLocation="http://schemas.opengis.net/citygml/2.0/cityGMLBase.xsd"/>
+  <import namespace="http://www.opengis.net/citygml/building/2.0"
+    schemaLocation="http://schemas.opengis.net/citygml/building/2.0/building.xsd"/>
   <element name="OndersteunendWegdeel" substitutionGroup="gml:_Feature"
     type="imgeo-s:OndersteunendWegdeelType">
     <annotation>
@@ -897,14 +899,40 @@
                 huisnummer behorende tot de reeks.</documentation>
             </annotation>
           </element>
-          <element name="geometrie3d" type="gml:SolidPropertyType">
-            <annotation>
-              <documentation>3D volume geometrie.</documentation>
-            </annotation>
-          </element>
+          <choice>
+            <sequence>
+              <element name="geometrie3d" type="gml:SolidPropertyType">
+                <annotation>
+                  <documentation>3D volume geometrie.</documentation>
+                </annotation>
+              </element>
+              <element name="pandbegrenzing" maxOccurs="unbounded" type="imgeo-s:begrenzingtype"/>
+            </sequence>
+            <element name="pandonderdeel" maxOccurs="unbounded">
+              <complexType>
+                <sequence>
+                  <element name="geometrie3d" type="gml:SolidPropertyType">
+                    <annotation>
+                      <documentation>3D volume geometrie.</documentation>
+                    </annotation>
+                  </element>
+                  <element name="pandbegrenzing" maxOccurs="unbounded" type="bldg:BoundarySurfacePropertyType"/>
+                </sequence>
+              </complexType>
+            </element>
+          </choice>
         </sequence>
       </extension>
     </complexContent>
+  </complexType>
+  <complexType name="begrenzingtype">
+    <choice>
+      <element ref="bldg:RoofSurface"/>
+      <element ref="bldg:GroundSurface"/>
+      <element ref="bldg:WallSurface"/>
+      <element ref="bldg:ClosureSurface"/>
+      <element ref="bldg:OuterCeilingSurface"/>
+    </choice>
   </complexType>
   <complexType name="PandPropertyType">
     <sequence minOccurs="0">

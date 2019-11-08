@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.opengis.net/citygml/2.0" 
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:frn="http://www.opengis.net/citygml/cityfurniture/2.0" 
     xmlns:gen="http://www.opengis.net/citygml/generics/2.0" xmlns:bldg="http://www.opengis.net/citygml/building/2.0" xmlns:veg="http://www.opengis.net/citygml/vegetation/2.0" 
     xmlns:ctg="http://www.opengis.net/citygml/2.0" xmlns:imgeo-s="http://www.geostandaarden.nl/imgeo/2.1/simple/gml31" 
@@ -47,7 +47,20 @@
                 <xsl:apply-templates select="@gml:id "/>
                 <imgeo-s:identificatieBAGPND><xsl:value-of select="gen:stringAttribute[@name='gebouwnummer']/gen:value"/></imgeo-s:identificatieBAGPND>
                 <!-- nummeraanduiding not in source data -->
-                <imgeo-s:geometrie3d><xsl:copy-of select="bldg:lod2Solid/*" exclude-result-prefixes="#all"/></imgeo-s:geometrie3d>
+                <xsl:choose>
+                    <xsl:when test="bldg:consistsOfBuildingPart">
+                        <xsl:for-each select="bldg:consistsOfBuildingPart">
+                            <imgeo-s:pandonderdeel>
+                                <imgeo-s:geometrie3d><xsl:copy-of select="bldg:BuildingPart/bldg:lod2Solid/*" exclude-result-prefixes="#all"/></imgeo-s:geometrie3d>
+                                <xsl:for-each select="bldg:BuildingPart/bldg:boundedBy"><imgeo-s:pandbegrenzing><xsl:copy-of select="*" exclude-result-prefixes="#all"/></imgeo-s:pandbegrenzing></xsl:for-each>
+                            </imgeo-s:pandonderdeel>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <imgeo-s:geometrie3d><xsl:copy-of select="bldg:lod2Solid/*" exclude-result-prefixes="#all"/></imgeo-s:geometrie3d>
+                        <xsl:for-each select="bldg:boundedBy"><imgeo-s:pandbegrenzing><xsl:copy-of select="*" exclude-result-prefixes="#all"/></imgeo-s:pandbegrenzing></xsl:for-each>
+                    </xsl:otherwise>
+                </xsl:choose>
             </imgeo-s:Pand>
         </gml:featureMember>            
     </xsl:template>
