@@ -906,7 +906,7 @@
                   <documentation>3D volume geometrie.</documentation>
                 </annotation>
               </element>
-              <element name="pandbegrenzing" maxOccurs="unbounded" type="imgeo-s:begrenzingtype"/>
+              <element name="pandbegrenzing" maxOccurs="unbounded" type="bldg:BoundarySurfacePropertyType"/>
             </sequence>
             <element name="pandonderdeel" maxOccurs="unbounded">
               <complexType>
