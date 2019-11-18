@@ -8,8 +8,6 @@ fin = open(filename)
 j = json.loads(fin.read())
 j2 = copy.deepcopy(j)
 
-
-j2['extensions'] = {'NL3D': {'url': 'https://github.com/hugoledoux/nl3d/blob/master/schemas/extensions/nl_3d.json', 'version': '0.1'}}
 j2['metadata']['referenceSystem'] = 'urn:ogc:def:crs:EPSG::7415'
 
 j2['@context'] = []
@@ -24,9 +22,9 @@ for cid in j['CityObjects']:
             if 'Odg_lamp_id' in j['CityObjects'][cid2]['attributes']:
                 if j['CityObjects'][cid2]['attributes']['Odg_lamp_id'] == lampid:
                     j2['CityObjects'][cid]['geometry'].append(j['CityObjects'][cid2]['geometry'][0])
-                    j2['CityObjects'][cid]['type'] = '+Paal'
-                    j2['CityObjects'][cid]['imgeo_type'] = 'lichtmast'
-                    j2['CityObjects'][cid]['toplevel'] = True
+                    j2['CityObjects'][cid]['type'] = 'CityFurniture'
+                    j2['CityObjects'][cid]['attributes']['class'] = "Paal"
+                    j2['CityObjects'][cid]['attributes']['function'] = "Lichtmast"
                     del j2['CityObjects'][cid2]
 
 
@@ -39,7 +37,7 @@ for cid in j['CityObjects']:
 #     del j2['CityObjects'][uid + '_s']
 #     del j2['CityObjects'][uid + '_w']
 
-json_str = json.dumps(j2, indent=2)
+json_str = json.dumps(j2)
 fout = open('../data/rotterdam/cityjson/cf_nl3d.json', 'w')
 fout.write(json_str)
 print('Done.')
