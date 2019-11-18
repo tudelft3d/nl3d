@@ -1,10 +1,11 @@
 
 # Draft data model for NL3D project
 
-Example dataset all merged is `/data/rotterdam/cityjson/all.json`
+Example dataset 
+  
+  - Rotterdam (part of): `/data/rotterdam/cityjson/all.json`
+  - TUD campus (generated with 3dfier): `/data/tudcampus/`
 
-The schema is `/schemas/extensions/nl_3d.json`
 
-It's pretty simple at this moment, looks like this:
+The files are plain CityJSON file, and the attributes `class` and `function` are used to identify which [IMGeo class and type](http://imgeo.geostandaarden.nl/) is a City Object
 
-![](./misc/uml_2.jpg)
